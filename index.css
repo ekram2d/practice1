@@ -1,0 +1,47 @@
+/* rgb(247, 163, 154)*/
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    
+    background-repeat:no-repeat;
+    background-image: url("img/pig_logo.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+} 
+.headder{
+    width: auto;
+    height: 70px;
+    border: solid 1px brown;
+    background-color: rgb(255, 0, 85);
+    position: static;
+    display: flex;
+    align-items: center;
+
+}
+.headder span{
+    vertical-align: middle;
+}
+.logo {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    content: " ";
+    background-image: url("pig_logo.jpg");
+    border-radius: 50%;
+    background-size: 45px 45px;
+    background-position: center;
+}
+.logo_text{
+    left: -2px;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 800;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(255, 0, 85);
+    position:fixed;
+    bottom:0;
+}
