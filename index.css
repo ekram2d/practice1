@@ -2,42 +2,71 @@
 body{
     background-color: rgb(255, 255, 255);
     margin: 1px;
-    
     background-repeat:no-repeat;
     background-image: url("img/pig_logo.jpg");
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-position: center;
-} 
-.headder{
-    width: auto;
-    height: 70px;
-    border: solid 1px brown;
-    background-color: rgb(255, 0, 85);
-    position: static;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+}
+.navbar{
+    background-color: rgb(245, 77, 105);
+    height: 12%;
     display: flex;
     align-items: center;
-
+} 
+.search img{
+    width: 30px;
+    height: auto;
+    margin: 0px 5px;
 }
-.headder span{
-    vertical-align: middle;
-}
-.logo {
-    margin-left: 10px;
-    width: 40px;
-    height: 40px;
-    content: " ";
-    background-image: url("pig_logo.jpg");
+.logo img{
+    height: 3rem;
     border-radius: 50%;
-    background-size: 45px 45px;
-    background-position: center;
 }
-.logo_text{
-    left: -2px;
-    z-index: 10;
-    color: rgb(255, 255, 255);
-    font-size: 23px;
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5% ;
+    color: antiquewhite;
+    font-size: 1.5rem;
     font-weight: 800;
+}
+.search{
+    flex: 1;
+    text-align: right;
+}
+.scocal{
+    display: inline-flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 5%;
+}
+.nav_bar ul{
+    justify-content: center;
+}
+.non{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 5px;
+}
+.sel{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(247, 103, 134);
+    border-radius: 10%;
+    padding: 3px 5px;
+}
+
+.nav_bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  0px 5vw 0 0;
+    font-weight: 600;
 }
 .footer{
     width: 100%;

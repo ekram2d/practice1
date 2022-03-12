@@ -8,21 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="headder">
-        <span class="logo"></span>
-        <span class="logo_text">Technoblade</span>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <div><img src="img\pig_logo.jpg" alt=""></div>
+                <div><span>Technoblade</span></div>
+            </div>
+            <nav class="nav_bar">
+                <ul>
+                    <li><a id="nav_about" class="sel" href="#">About</a> </li>
+                    <li><a id="nav_videos" class="non" href="#">Videos</a></li>
+                    <li><a id="nav_Twitts"class="non" href="#">Twitts</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <div class="scocal">
+                    <div><a href=""><img src="img\YouTube_full-color_icon.svg" alt=""></a></div>                    <div><a href=""><img src="img\Twitter-logo.svg" alt=""></a></div>
+                        <div> <img src="img\Search-big.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="bdy">
-        <h1>H1 headder Waitting To be filled</h1>
-        <h2>H2 headder Waitting To be filled</h2>
-        <h3>H3 headder Waitting To be filled</h3>
-        <h4>H4 headder Waitting To be filled</h4>
-        <h5>H5 headder Waitting To be filled</h5>
-        <h6>H6 headder Waitting To be filled</h6>
-    </div>
-    <div class="footer">
-        <Span> Footer laies here</Span>
-    </div>
-    
+    <script>
+        function getURL() {
+            alert("The URL of this page is: " + window.location.href);
+        }
+    </script> 
 </body>
 </html>
